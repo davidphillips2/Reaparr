@@ -52,6 +52,8 @@ public static partial class Startup
 
         services.AddHttpContextAccessor();
 
+        services.AddHealthChecks();
+
         services.ConfigureAuthenticationServices();
 
         // Setup FastEndpoints

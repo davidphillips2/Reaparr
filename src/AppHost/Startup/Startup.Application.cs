@@ -27,6 +27,8 @@ public static partial class Startup
 
         app.UseRouting();
 
+        app.MapHealthChecks("/api/health");
+
         if (!EnvironmentExtensions.IsIntegrationTestMode())
         {
             // SignalR configuration

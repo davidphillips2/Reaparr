@@ -107,6 +107,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicAPI.Contracts", "src\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppHost.UnitTests", "tests\UnitTests\AppHost.UnitTests\AppHost.UnitTests.csproj", "{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E2ETests", "tests\E2ETests\E2ETests\E2ETests.csproj", "{CE736AA9-FD8F-4ADD-ACF4-088EC1253532}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "E2ETests", "E2ETests", "{F7CC5297-F46B-4925-AB6A-287862BB03BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -245,6 +249,10 @@ Global
 		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE736AA9-FD8F-4ADD-ACF4-088EC1253532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE736AA9-FD8F-4ADD-ACF4-088EC1253532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE736AA9-FD8F-4ADD-ACF4-088EC1253532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE736AA9-FD8F-4ADD-ACF4-088EC1253532}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -291,6 +299,8 @@ Global
 		{E98B35D2-5046-4B33-9A81-88879774E751} = {6ED356A7-8B47-4613-AD01-C85CF28491BD}
 		{A1B2C3D4-E5F6-7890-ABCD-EF1234567890} = {BC7C4F2B-5B33-4A5F-9718-3A672B10A312}
 		{935CDCB2-099E-41A5-B585-707D42DBCE1E} = {B5DD9F30-A643-4E3C-B375-5EBF2FB2CBAC}
+		{F7CC5297-F46B-4925-AB6A-287862BB03BF} = {664D406C-2F83-48F0-BFC3-408D5CB53C65}
+		{CE736AA9-FD8F-4ADD-ACF4-088EC1253532} = {F7CC5297-F46B-4925-AB6A-287862BB03BF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B4C02A51-7A0F-40AF-B559-20772614ED60}
@@ -298,5 +308,7 @@ Global
 	GlobalSection(RiderSharedRunConfigurations) = postSolution
 		File = src\.run\Reaparr Back-End Development.run.xml
 		File = src\AppHost\ClientApp\.run\dev.run.xml
+		File = src\AppHost\ClientApp\.run\Nuxt Dev Debug .run.xml
+		File = src\AppHost\ClientApp\.run\WebUI Debug Browser.run.xml
 	EndGlobalSection
 EndGlobal
